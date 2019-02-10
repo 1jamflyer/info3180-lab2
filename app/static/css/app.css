@@ -33,6 +33,7 @@ p{
     text-align: center
     
 }
+/*
 .follow{
     word-spacing: 2cm;
     font-weight: bold;
@@ -40,4 +41,15 @@ p{
 }
 .x{
     word-spacing: 2cm;
+}
+*/
+.column {
+  text-align:center;
+  width: 33.3%
+}
+
+
+.row:after {
+  content: "";
+  display: table;
 }
